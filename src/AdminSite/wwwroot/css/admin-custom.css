@@ -74,7 +74,7 @@
 }
 
 .cm-panel-default {
-    background: #F9F9F9 !important;
+    background: #f9fafb !important;
     border-radius: 0px;
     padding: 20px;
 }
@@ -142,8 +142,8 @@
 
 .cm-button {
     color: #fff !important;
-    background-color: #6A33FF;
-    border-color: #6A33FF;
+    background-color: #6a5ef9;
+    border-color: #6a5ef9;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -162,8 +162,8 @@
 
 .cm-button-default {
     color: #fff !important;
-    background-color: #6A33FF;
-    border-color: #6A33FF;
+    background-color: #6a5ef9;
+    border-color: #6a5ef9;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -204,8 +204,8 @@
 
 .cm-button-error {
     color: #fff;
-    background-color: #6A33FF !important;
-    border-color: #6A33FF;
+    background-color: #6a5ef9 !important;
+    border-color: #6a5ef9;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -356,12 +356,13 @@
     }
 
 /*.cm-footer {
-    background-color: #F9F9F9;
+    background-color: #f9fafb;
     position: absolute !important
 }*/
 
 .cm-container {
     margin-left: 80px;
+    background-color: #f9fafb !important;
 }
 
 .cm-footer, .cm-push {
@@ -489,7 +490,7 @@ button.navbar-toggler:focus, button.navbar-toggler:hover {
 .cm-section-heading-scale-subscription {
     font-family: 'Inter' !important;
     font-size: 20px;
-    background-color: #fff;
+    background-color: #f9fafb;
     margin-bottom: 20px;
     line-height: 40px;
     color: black;
