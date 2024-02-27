@@ -455,6 +455,9 @@ a.cm-dropdown-option {
 
 .left {
     width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right {
