@@ -142,8 +142,8 @@
 
 .cm-button {
     color: #fff !important;
-    background-color: #004578;
-    border-color: #2e6da4;
+    background-color: #6A33FF;
+    border-color: #6A33FF;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -162,8 +162,8 @@
 
 .cm-button-default {
     color: #fff !important;
-    background-color: #004578;
-    border-color: #2e6da4;
+    background-color: #6A33FF;
+    border-color: #6A33FF;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -204,8 +204,8 @@
 
 .cm-button-error {
     color: #fff;
-    background-color: #004578 !important;
-    border-color: #2e6da4;
+    background-color: #6A33FF !important;
+    border-color: #6A33FF;
     display: inline-block;
     font-weight: 400;
     text-align: center;
