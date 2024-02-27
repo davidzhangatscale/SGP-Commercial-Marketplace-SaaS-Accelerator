@@ -47,6 +47,7 @@
                                     </div>
                                     <div>
                                         @Html.DisplayFor(model => model.Id)
+                                        <button onclick="CopyToClipboard('@Model.Id')"><i class="fa-regular fa-copy"></i></button>
                                     </div>
                                 </div>
                             </dd>
@@ -79,7 +80,7 @@
                                 <span class="tenant-id">
                                     @Html.DisplayFor(model => model.Purchaser.TenantId)
                                     @Html.HiddenFor(model => model.Purchaser.TenantId)
-                                    <a onclick="CopyToClipboard('@Model.Purchaser.TenantId')" class="copy-button text-end"></a>
+                                    <button onclick="CopyToClipboard('@Model.Purchaser.TenantId')"><i class="fa-regular fa-copy"></i></button>
                                 </span>
                             </dd>
                         </dl>
