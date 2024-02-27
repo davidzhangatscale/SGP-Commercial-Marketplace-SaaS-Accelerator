@@ -466,6 +466,10 @@ input:checked + .slider:before {
     color: red;
 }
 
+.black-star {
+    color: black;
+}
+
 button.navbar-toggler:focus, button.navbar-toggler:hover {
     outline: none
 }
@@ -480,6 +484,16 @@ button.navbar-toggler:focus, button.navbar-toggler:hover {
 
 .ac-save-i {
     background-color: #333;
+}
+
+.cm-section-heading-scale-subscription {
+    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-size: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    line-height: 40px;
+    color: black;
+    font-weight: bold;
 }
 
 /* The Modal (background) */
