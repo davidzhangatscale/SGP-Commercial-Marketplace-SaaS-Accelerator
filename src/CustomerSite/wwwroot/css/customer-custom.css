@@ -195,6 +195,12 @@
     font-weight: normal !important;
 }
 
+.cm-button-return-to-subscriptions {
+    color: #fff !important;
+    background-color: #fff;
+    border-color: #e4e5ed;
+}
+
 .cm-button-default {
     color: #fff !important;
     background-color: #6a5ef9;
