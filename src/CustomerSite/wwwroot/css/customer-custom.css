@@ -446,3 +446,17 @@ a.cm-dropdown-option {
     border-width: 0;
     background-color: #f9fafb;
 }
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.left {
+    width: 15%;
+}
+
+.right {
+    width: 85%;
+}
