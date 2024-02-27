@@ -34,16 +34,6 @@
     padding-right: 6px;
 }
 
-.cm-section-heading-scale-subscription {
-    font-family: 'Segoe UI', 'sans-serif' !important;
-    font-size: 20px;
-    background-color: #fff;
-    margin-bottom: 20px;
-    line-height: 40px;
-    color: black;
-    font-weight: bold;
-}
-
 .cm-logout {
     vertical-align: middle;
     padding-left: 2px;
@@ -473,10 +463,6 @@ input:checked + .slider:before {
     }
 
 .red-star {
-    color: red;
-}
-
-.black-star {
     color: red;
 }
 
