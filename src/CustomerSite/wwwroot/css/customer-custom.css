@@ -15,17 +15,20 @@
 .subscription-status{
     background-color: #ffe082 !important;
     border-radius: 18px;
+    padding:0 10px;
 }
 
 .subscription-plan{
     background-color: #f3f2ff !important;
     border-radius: 18px;
     color: #493dc7 !important;
+    padding:0 10px;
 }
 
 .tenant-id{
     background-color: #f3f4f6 !important;
     border-radius: 18px;
+    padding:0 10px;
 }
 
 .cm-top-nav-bar {
