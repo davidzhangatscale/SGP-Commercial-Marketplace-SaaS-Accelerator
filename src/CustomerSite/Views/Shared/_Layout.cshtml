@@ -31,30 +31,30 @@
             <div class="form-inline my-2 my-lg-0 ms-auto" style="padding-right:10px;">
                 @if (this.User.Identity.IsAuthenticated)
                 {
-                    <span class="cm-username text-white">@User.Identity.Name&nbsp;</span>
-                    <a class="text-white cm-logout" style="text-decoration: none;" asp-controller="Account" asp-action="SignOut">&nbsp;<i class="fa fa-sign-out fa-2x"></i></a>
+                    <span class="cm-username text-black">@User.Identity.Name&nbsp;</span>
+                    <a class="text-black cm-logout" style="text-decoration: none;" asp-controller="Account" asp-action="SignOut">&nbsp;<i class="fa fa-sign-out fa-2x"></i></a>
                 }
                 else
                 {
-                    <a class="text-white" style="text-decoration: none;" asp-controller="Account" asp-action="SignIn">Sign in</a>
+                    <a class="text-black" style="text-decoration: none;" asp-controller="Account" asp-action="SignIn">Sign in</a>
                 }
             </div>
         </div>
     </nav>
-    @if (TempData["ShowWelcomeScreen"] != null && Convert.ToString(TempData["ShowWelcomeScreen"]) == "True")
-    {
     <div class="nav-scroller bg-white shadow-sm cm-menu-bar">
         <nav class="container pb-3 nav nav-underline">
             <a class="nav-link active">
                 @if (this.User.Identity.IsAuthenticated)
                 {
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Subscriptions">Subscriptions</a>
+                    @if (TempData["ShowWelcomeScreen"] != null && Convert.ToString(TempData["ShowWelcomeScreen"]) == "True")
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Subscriptions">Subscriptions</a>
+                    }
                 }
             </a>
         </nav>
     </div>
-    }
     <div class="container pb-3">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
