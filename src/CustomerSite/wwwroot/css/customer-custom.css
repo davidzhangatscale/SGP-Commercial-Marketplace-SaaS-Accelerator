@@ -12,6 +12,22 @@
     margin-bottom: 20px;
 }
 
+.subscription-status{
+    background-color: #ffe082 !important;
+    border-radius: 18px;
+}
+
+.subscription-plan{
+    background-color: #f3f2ff !important;
+    border-radius: 18px;
+    color: #493dc7 !important;
+}
+
+.tenant-id{
+    background-color: #f3f4f6 !important;
+    border-radius: 18px;
+}
+
 .cm-top-nav-bar {
     background-color: #FFFFFF !important;
     margin-bottom: 0px;
