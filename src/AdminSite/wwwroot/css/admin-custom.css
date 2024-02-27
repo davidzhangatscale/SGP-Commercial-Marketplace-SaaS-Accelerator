@@ -31,7 +31,6 @@
 }
 
 .cm-username {
-    border-right: solid 1px white;
     padding-right: 6px;
 }
 
@@ -46,6 +45,10 @@
 
 .text-white {
     color: white !important;
+}
+
+.text-black {
+    color: black !important;
 }
 
 .cm-menu-item {

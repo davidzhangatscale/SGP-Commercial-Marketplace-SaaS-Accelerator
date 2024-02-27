@@ -8,11 +8,11 @@
 }
 @if (!Model.ShowWelcomeScreen)
 {
-    <div class="container" id="divHome">
+    <div class="cm-container" id="divHome">
         <form method="post" id="frmIndex">
 
-            <div class="text-white mt20">
-                <span class="cm-section-heading">Subscription Details</span>
+            <div class="text-black mt20">
+                <span class="cm-section-heading">Thanks for Subscribing to the Scale GenAI Platform!</span>
             </div>
             @if (Model != null && !string.IsNullOrEmpty(Model.ErrorMessage))
             {

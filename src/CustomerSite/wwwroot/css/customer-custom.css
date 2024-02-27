@@ -12,10 +12,10 @@
 }
 
 .cm-top-nav-bar {
-    background-color: #004578 !important;
+    background-color: #FFFFFF !important;
     margin-bottom: 0px;
     border: 0px;
-    height:48px;
+    height:55px;
     border-radius: 0;
 }
 
@@ -32,7 +32,6 @@
 }
 
 .cm-username {
-    border-right: solid 1px white;
     padding-right: 6px;
 }
 
@@ -47,6 +46,10 @@
 
 .text-white {
     color: white !important;
+}
+
+.text-black {
+    color: black !important;
 }
 
 .cm-menu-item {
@@ -77,12 +80,27 @@
     padding: 20px;
 }
 
+.sgp-panel-default {
+    background: #FFFFFF !important;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .cm-section-heading {
     font-family: 'Segoe UI', 'sans-serif' !important;
     font-size: 25px;
     background-color: #fff;
     border-bottom: 4px solid #2180a6;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 40px;
+    color: black;
+}
+
+.cm-section-heading-scale-subscription {
+    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-size: 20px;
+    background-color: #fff;
     margin-bottom: 20px;
     line-height: 40px;
     color: black;
