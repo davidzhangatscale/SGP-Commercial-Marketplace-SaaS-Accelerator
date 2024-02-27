@@ -435,3 +435,7 @@ a.cm-dropdown-option {
 .black-star {
     color: black;
 }
+
+.copy-button {
+    background-image: url(copy-button.png);
+}

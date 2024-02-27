@@ -79,6 +79,7 @@
                                 <span class="tenant-id">
                                     @Html.DisplayFor(model => model.Purchaser.TenantId)
                                     @Html.HiddenFor(model => model.Purchaser.TenantId)
+                                    <a onclick="CopyToClipboard('@Model.Purchaser.TenantId')" class="copy-button text-end"></a>
                                 </span>
                             </dd>
                         </dl>
@@ -233,6 +234,13 @@ else
     </div>
 }
 <script type="text/javascript">
+
+    function CopyToClipboard(copyText) 
+    {
+        navigator.clipboard.writeText(copyText)
+          .then(() => { alert('Copied to clipboard.') })
+          .catch((error) => { alert('Copy failed. Error: ${error}') })
+    }
 
     function SubscriptionOperation(subscriptionId, planId, operation) {
         if (validate()) {
