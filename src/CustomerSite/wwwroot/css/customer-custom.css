@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-family: 'Inter' !important;
     color: black !important;
     font-size: 16px !important;
     height: 100%;
@@ -93,7 +93,7 @@
 }
 
 .cm-section-heading {
-    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-family: 'Inter' !important;
     font-size: 25px;
     background-color: #fff;
     border-bottom: 4px solid #2180a6;
@@ -104,7 +104,7 @@
 }
 
 .cm-section-sub-heading {
-    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-family: 'Inter' !important;
     font-size: 15px;
     background-color: #fff;
     margin-bottom: 20px;
@@ -123,7 +123,7 @@
 }
 
 .cm-section-heading-scale-subscription {
-    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-family: 'Inter' !important;
     font-size: 20px;
     background-color: #fff;
     margin-bottom: 20px;

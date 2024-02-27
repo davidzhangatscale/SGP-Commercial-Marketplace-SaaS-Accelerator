@@ -81,7 +81,7 @@
 
 .cm-section-heading {
     font-family: Segoe UI,Segoe UI Web,Segoe UI Symbol,Helvetica Neue,BBAlpha Sans,S60 Sans,Arial,sans-serif;
-    /*font-family: 'Segoe UI', 'sans-serif' !important;*/
+    /*font-family: 'Inter' !important;*/
     font-size: 30px;
     font-weight: 600;
     text-align: left;
@@ -487,7 +487,7 @@ button.navbar-toggler:focus, button.navbar-toggler:hover {
 }
 
 .cm-section-heading-scale-subscription {
-    font-family: 'Segoe UI', 'sans-serif' !important;
+    font-family: 'Inter' !important;
     font-size: 20px;
     background-color: #fff;
     margin-bottom: 20px;
