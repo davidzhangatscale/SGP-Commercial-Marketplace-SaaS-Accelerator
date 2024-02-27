@@ -460,3 +460,9 @@ a.cm-dropdown-option {
 .right {
     width: 85%;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
