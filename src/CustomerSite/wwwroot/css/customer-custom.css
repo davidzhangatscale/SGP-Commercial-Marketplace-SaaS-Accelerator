@@ -15,20 +15,20 @@
 .subscription-status{
     background-color: #ffe082 !important;
     border-radius: 18px;
-    padding:0 10px;
+    padding:0 15px;
 }
 
 .subscription-plan{
     background-color: #f3f2ff !important;
     border-radius: 18px;
     color: #493dc7 !important;
-    padding:0 10px;
+    padding:0 15px;
 }
 
 .tenant-id{
     background-color: #f3f4f6 !important;
     border-radius: 18px;
-    padding:0 10px;
+    padding:0 15px;
 }
 
 .cm-top-nav-bar {
@@ -126,7 +126,7 @@
 
 .cm-section-sub-heading {
     font-family: 'Inter' !important;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #fff;
     margin-bottom: 20px;
     line-height: 40px;
