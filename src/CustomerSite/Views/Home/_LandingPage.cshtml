@@ -37,7 +37,7 @@
                             <dt class="col-sm-3 p-2 p10">
                                 @Html.DisplayName("Customer Identity")
                             </dt>
-                            <dd class="col-sm-9 p-2 p10">
+                            <dd class="col-sm-9 p-2 p10" style="display: flex;">
                                 <div class="customer-info-row">
                                     <div>
                                         @Html.DisplayFor(model => model.CustomerName)
@@ -47,7 +47,7 @@
                                     </div>
                                     <div>
                                         @Html.DisplayFor(model => model.Id)
-                                        <button onclick="CopyToClipboard('@Model.Id')"><i class="fa-regular fa-copy"></i></button>
+                                        <button onclick="CopyToClipboard('@Model.Id')" class="copy-button"><i class="fa-regular fa-copy"></i></button>
                                     </div>
                                 </div>
                             </dd>
@@ -80,8 +80,8 @@
                                 <span class="tenant-id">
                                     @Html.DisplayFor(model => model.Purchaser.TenantId)
                                     @Html.HiddenFor(model => model.Purchaser.TenantId)
-                                    <button onclick="CopyToClipboard('@Model.Purchaser.TenantId')"><i class="fa-regular fa-copy"></i></button>
                                 </span>
+                                <button onclick="CopyToClipboard('@Model.Purchaser.TenantId')" class="copy-button"><i class="fa-regular fa-copy"></i></button>
                             </dd>
                         </dl>
                     </div>

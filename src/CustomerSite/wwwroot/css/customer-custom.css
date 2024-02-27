@@ -436,3 +436,7 @@ a.cm-dropdown-option {
     color: black;
 }
 
+.copy-button {
+    border-width: 0;
+    background-color: #f9fafb;
+}
