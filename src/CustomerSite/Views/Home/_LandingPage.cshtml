@@ -94,7 +94,7 @@
 
                                 if (Model.SubscriptionStatus == SubscriptionStatusEnumExtension.PendingFulfillmentStart)
                                 {
-                                    <dt class="col-sm-3 p-2 p10 @Model.SubscriptionParameters[i].Type">
+                                    <dt class="col-sm-3-normal-font p-2 p10 @Model.SubscriptionParameters[i].Type">
                                         @Html.DisplayFor(model => model.SubscriptionParameters[i].DisplayName, new { required = "required", @class = @Model.SubscriptionParameters[i].Type })
                                         @if (Model.SubscriptionParameters[i].IsRequired == true)
                                         {<span class="black-star @Model.SubscriptionParameters[i].Type">*</span>}
@@ -106,7 +106,7 @@
                                 {
                                     @if (Model.SubscriptionParameters[i].Type.ToLower() == "input")
                                     {
-                                        <dt class="col-sm-3 p-2 p10 @Model.SubscriptionParameters[i].Type">
+                                        <dt class="col-sm-3-normal-font p-2 p10 @Model.SubscriptionParameters[i].Type">
                                             @Html.DisplayFor(model => model.SubscriptionParameters[i].DisplayName)
                                         </dt>
                                     }
