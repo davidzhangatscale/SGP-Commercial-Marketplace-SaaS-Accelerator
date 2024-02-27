@@ -68,10 +68,9 @@
     width: 30%;*/
     border-style: none;
     width: auto;
-
-    /*margin-left:-10px;*/
-    /*padding: 8px;*/
-    max-height: 35px;
+    /* margin-left: -5px;
+    padding: 8px; */
+    max-height: 65px;
 }
 
 .cm-panel-default {
