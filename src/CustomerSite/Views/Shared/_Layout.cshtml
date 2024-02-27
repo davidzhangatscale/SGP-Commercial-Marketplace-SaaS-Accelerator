@@ -46,9 +46,12 @@
             <a class="nav-link active">
                 @if (this.User.Identity.IsAuthenticated)
                 {
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <div class="text-black mt20">
+                        <span class="cm-section-heading-scale-subscription">Thanks for Subscribing to the Scale GenAI Platform!</span>
+                    </div>
                     @if (TempData["ShowWelcomeScreen"] != null && Convert.ToString(TempData["ShowWelcomeScreen"]) == "True")
                     {
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Subscriptions">Subscriptions</a>
                     }
                 }
