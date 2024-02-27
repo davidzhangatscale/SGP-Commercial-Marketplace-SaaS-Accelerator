@@ -113,6 +113,15 @@
     font-weight: bold;
 }
 
+.customer-info-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-info-row>* {
+    flex: 1 1 160px;
+}
+
 .cm-section-heading-scale-subscription {
     font-family: 'Segoe UI', 'sans-serif' !important;
     font-size: 20px;

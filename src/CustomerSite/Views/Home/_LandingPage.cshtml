@@ -38,7 +38,17 @@
                                 @Html.DisplayName("Customer Identity")
                             </dt>
                             <dd class="col-sm-9 p-2 p10">
-                                @Html.DisplayFor(model => model.CustomerName)    @Html.DisplayFor(model => model.CustomerEmailAddress)    @Html.DisplayFor(model => model.Id)
+                                <div class="customer-info-row">
+                                    <div>
+                                        @Html.DisplayFor(model => model.CustomerName)
+                                    </div>
+                                    <div>
+                                        @Html.DisplayFor(model => model.CustomerEmailAddress)
+                                    </div>
+                                    <div>
+                                        @Html.DisplayFor(model => model.Id)
+                                    </div>
+                                </div>
                             </dd>
                             <dt class="col-sm-3 p-2 p10">
                                 @Html.DisplayName("Offer Name ")
