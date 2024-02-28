@@ -189,6 +189,7 @@
 
                         }
                     </dl>
+                    <input type="checkbox" class="agreementsCheckbox"/> <a href="https://www.w3schools.com/">Legal Terms</a>
                 </div>
                 <div class="text-end">
                     @if (Model.SubscriptionStatus == SubscriptionStatusEnumExtension.Subscribed)
@@ -277,6 +278,10 @@ else
             if ($(this).val() == "") //check loginc here
                 return valid = false;
         });
+        var isChecked = $(".agreementsCheckbox").is(':checked');
+        if (!isChecked) {
+            return valid = false;
+        }
         return valid;
     }
 </script>
