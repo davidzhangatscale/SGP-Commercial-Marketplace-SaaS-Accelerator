@@ -201,6 +201,11 @@
     border-color: #e4e5ed;
 }
 
+.legal-terms {
+    color: #6a5ef9;
+    text-decoration: none;
+}
+
 .cm-button-default {
     color: #fff !important;
     background-color: #6a5ef9;
